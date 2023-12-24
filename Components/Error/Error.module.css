@@ -1,0 +1,32 @@
+
+.Error {
+    position: fixed;
+    inset: 30% 30% 45% 30%;
+    z-index: 1111111111;
+    margin: 0  auto;
+    background-color: #292F3F;
+    text-align: center;
+    border-radius: 1rem;
+    padding: 2rem;
+    border-radius: 50px;
+    background-color: #F18303;
+    box-shadow: 5px 5px 10px #cd6f03,
+    -5px -5px 10px #ff9703;
+}
+
+.Error_box {
+    color: white;
+}
+
+.text {
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 700;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+@media only screen and (max-width: 35em) {
+    .Error{
+        inset: 10% 10% 55% 10%;
+    }
+}

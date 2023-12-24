@@ -1,0 +1,68 @@
+
+.Navbar{
+    width: 80%;
+    margin: 3rem auto;
+    position: relative;
+}
+
+.Navbar_box {
+    display: grid;
+    grid-template-columns: 1fr 1.7fr;
+    align-items: center;
+    gap: 2rem;
+}
+
+.Navbar_box_right {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.Navbar_box_right_menu {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    border-bottom: 2px solid transparent;
+    transition: all .3s ease-in-out;
+}
+
+.active_btn {
+    color: #F18303;
+    border-bottom: 2px solid #F18303;
+    padding-bottom: .4rem;
+}
+
+.Navbar_box_right_connect {
+    display: flex;
+    justify-self: flex-end;
+}
+
+.Navbar_box_right_connect button {
+    background-color: rgba(0, 0, 0, 0.25);
+    padding: 1rem;
+    border: none;
+    border-radius: .5rem;
+    font-size: 1.1rem;
+    color: #F18303;
+    font-weight: 700;
+    cursor: pointer;
+
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+}
+
+.Navbar_box_right_close {
+    display: none;
+}
+
+.Navbar_box_right_open {
+    display: none;
+}
+
+.modelBox {
+    position: fixed;
+    inset: 0 0 0 0;
+    background-color: #292F3F;
+    z-index: 77777777;
+}

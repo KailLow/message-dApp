@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"name": "test",
+			"path": ".."
+		},
+		{
+			"name": "assets",
+			"path": "../../chat-dapp-starter-file/assets"
+		}
+	],
+	"settings": {}
+}
